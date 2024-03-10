@@ -1,0 +1,126 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.card {
+  width: 50%;
+  height: 65%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.roboto-slab-title-text {
+  font-family: "Roboto Slab", serif;
+  font-size: 2.5rem;
+  font-weight: 700;
+  font-style: normal;
+  text-wrap: normal;
+  text-align: center;
+  color: white;
+  background-color:rgba(0, 0, 0, 0.5);
+  border-radius: 10px 10px 0 0;
+  padding: 0 2rem 0 2rem;
+
+}
+
+.mat-card-center {
+  display: flex;
+  justify-content: center;
+}
+
+.small-text-decor{
+  color: white;
+  text-align: center;
+  background-color:rgba(0, 0, 0, 0.5);
+  border-radius:  0 0 10px 10px;
+  padding: 0 2rem 0 2rem;
+}
+
+
+.button-margin {
+  margin: 2rem;
+  display: flex;
+  justify-content: flex-end;
+
+}
+
+.button-decor {
+  font-weight: 700 !important;
+  border-radius: 2rem !important;
+}
+
+.bar {
+  width: 70%;
+  border-radius: 2px;
+
+}
+
+.mat-progress-bar {
+  height: 4rem !important;
+}
+
+.progress-bar {
+  width: 70%;
+  height: 0.7rem;
+  border-radius: 10px;
+  background-color: #e9dccc;
+}
+
+.progress-bar-fill {
+  background-color: #e29834;
+  border-radius: 10px;
+  height: 100%; /* This is important */
+}
+
+.top {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.content {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.question-content {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+}
+
+.response {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  //justify-content: center;
+  margin: 2rem;
+}
+
+.button-response {
+  margin: 2rem;
+  width: 12rem;
+  height: 6rem;
+  font-weight: 700 !important;
+  font-size: 2rem;
+  transition: all 0.5s ease;
+}
+
+.glow {
+  box-shadow: 0 0 10px #00E676;
+}
+
+.fade-out {
+  opacity: 0.5;
+}

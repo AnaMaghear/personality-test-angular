@@ -1,0 +1,33 @@
+<div class="container">
+  <mat-card class="card">
+    <div class="top">
+      <p>Question {{current_question}} of {{number_of_questions}}</p>
+      <div class="progress-bar">
+        <div class="progress-bar-fill" [ngStyle]="{'width.%': current_question / number_of_questions * 100}"></div>
+      </div>
+    </div>
+
+
+    <div class="content">
+      <div class="question-content">
+        <div>
+          <app-question [question]="'Do you prefer a hands-on approach to problem-solving and troubleshooting?'">
+          </app-question>
+        </div>
+
+        <div class="response">
+          <button (click)="selectButton('no')" [class.glow]="selectedButton === 'no'" [class.fade-out]="selectedButton === 'yes'"  mat-stroked-button color="primary" class="button-response">No</button>
+          <button (click)="selectButton('yes')" [class.glow]="selectedButton === 'yes'" [class.fade-out]="selectedButton === 'no'" mat-stroked-button color="primary" class="button-response">Yes</button>
+        </div>
+
+      </div>
+
+
+      <div class="button-margin">
+        <button class="button-decor" mat-raised-button color="primary">NEXT</button>
+      </div>
+    </div>
+
+
+  </mat-card>
+</div>
