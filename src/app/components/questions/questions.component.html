@@ -1,31 +1,46 @@
 <div class="container">
   <mat-card class="card">
     <div class="top">
-      <p>Question {{current_question}} of {{number_of_questions}}</p>
+      <p>Part {{questions[current_question].part}} - Question {{current_question + 1}} of {{number_of_questions}}</p>
       <div class="progress-bar">
-        <div class="progress-bar-fill" [ngStyle]="{'width.%': current_question / number_of_questions * 100}"></div>
+        <div class="progress-bar-fill" [ngStyle]="{'width.%': (current_question + 1)/ number_of_questions * 100}"></div>
       </div>
     </div>
 
-
     <div class="content">
-      <div class="question-content">
-        <div>
-          <app-question [question]="'Do you prefer a hands-on approach to problem-solving and troubleshooting?'">
-          </app-question>
+
+      <app-question
+        [img_path]="questions[current_question].img_name"
+        [question]="questions[current_question].question">
+      </app-question>
+
+      <div class="response">
+        <div class="button-back">
+          <button *ngIf="current_question + 1 !== 1" (click)="onBack()" class="button-decor" mat-raised-button color="primary">BACK</button>
+        </div>
+        <div class="yes-no">
+          <button (click)="selectButton(0)"
+                  [class.glow]="selectedButton === 0"
+                  [class.fade-out]="selectedButton === 1"
+                  mat-stroked-button color="primary"
+                  class="button-response">No
+          </button>
+          <button (click)="selectButton(1)"
+                  [class.glow]="selectedButton === 1"
+                  [class.fade-out]="selectedButton === 0"
+                  mat-stroked-button color="primary"
+                  class="button-response">Yes
+          </button>
         </div>
 
-        <div class="response">
-          <button (click)="selectButton('no')" [class.glow]="selectedButton === 'no'" [class.fade-out]="selectedButton === 'yes'"  mat-stroked-button color="primary" class="button-response">No</button>
-          <button (click)="selectButton('yes')" [class.glow]="selectedButton === 'yes'" [class.fade-out]="selectedButton === 'no'" mat-stroked-button color="primary" class="button-response">Yes</button>
+        <div *ngIf="current_question !== number_of_questions - 1" class="button-right">
+          <button [disabled]="selectedButton === null" (click)="onNext()" class="button-decor" mat-raised-button color="primary">NEXT</button>
         </div>
-
+        <div *ngIf="current_question === number_of_questions - 1" class="button-right">
+          <button (click)="onSubmit(questions[current_question].part)" class="button-decor" mat-raised-button color="primary">SUBMIT</button>
+        </div>
       </div>
 
-
-      <div class="button-margin">
-        <button class="button-decor" mat-raised-button color="primary">NEXT</button>
-      </div>
     </div>
 
 

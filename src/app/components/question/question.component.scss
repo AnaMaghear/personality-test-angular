@@ -5,4 +5,17 @@
   font-style: normal;
   text-wrap: normal;
   text-align: center;
+  margin: 0 0 0.5rem;
+}
+
+
+img {
+  height: 12rem;
+  border-radius: 10px;
+}
+
+.image-question{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }

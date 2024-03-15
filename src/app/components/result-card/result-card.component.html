@@ -1,0 +1,16 @@
+
+<div class="container">
+  <mat-card class="card">
+
+    <mat-card-title class="roboto-slab-title-text">
+      Congratulation! The ideal job for you is: {{job_result.job}}!
+    </mat-card-title>
+    <img class="image" src="../../../assets/{{job_result.job_image}}">
+
+    <div class="button-margin">
+      <button (click)="onRestart()" class="button-decor" mat-raised-button color="primary">RESTART</button>
+    </div>
+
+  </mat-card>
+</div>
+

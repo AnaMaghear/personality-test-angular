@@ -10,6 +10,7 @@ import {MatCardModule} from "@angular/material/card";
 import { QuestionsComponent } from './components/questions/questions.component';
 import { QuestionComponent } from './components/question/question.component';
 import {MatProgressBarModule} from "@angular/material/progress-bar";
+import { ResultCardComponent } from './components/result-card/result-card.component';
 
 @NgModule({
   declarations: [
@@ -17,6 +18,7 @@ import {MatProgressBarModule} from "@angular/material/progress-bar";
     StartCardComponent,
     QuestionsComponent,
     QuestionComponent,
+    ResultCardComponent,
   ],
   imports: [
     BrowserModule,

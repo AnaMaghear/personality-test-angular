@@ -7,7 +7,8 @@ import {Component, Input} from '@angular/core';
 })
 export class QuestionComponent {
 
-  @Input() question='';
+  @Input() question:string = '';
+  @Input() img_path:string = '';
 
 
 
