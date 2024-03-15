@@ -17,6 +17,9 @@ export class ResultCardComponent implements OnInit{
     this.resultService.currentJobResult.subscribe(jobResult => {
       if (jobResult) {
         this.job_result = jobResult;
+        localStorage.setItem("job_result", JSON.stringify(jobResult));
+      } else {
+        this.job_result = JSON.parse(localStorage.getItem("job_result") as string);
       }
     });
   }

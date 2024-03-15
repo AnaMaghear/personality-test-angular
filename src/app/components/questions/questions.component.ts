@@ -44,9 +44,9 @@ export class QuestionsComponent implements OnInit {
   }
 
   onNext() {
-    this.selectedButton = null;
-    this.current_question++;
     this.selectButton(this.all_responses[this.current_question]?.response);
+    this.current_question++;
+    this.selectedButton = null;
   }
 
   onBack() {
