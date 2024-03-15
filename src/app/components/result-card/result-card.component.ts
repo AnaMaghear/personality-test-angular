@@ -10,7 +10,7 @@ import {Router} from "@angular/router";
 })
 export class ResultCardComponent implements OnInit{
 
-  job_result: JobResultModel = {job: '', job_image: ''};
+  job_result: JobResultModel = {job: '', img: ''};
   constructor(private resultService: ResultService, private router: Router) {}
 
   ngOnInit() {

@@ -11,6 +11,7 @@ import { QuestionsComponent } from './components/questions/questions.component';
 import { QuestionComponent } from './components/question/question.component';
 import {MatProgressBarModule} from "@angular/material/progress-bar";
 import { ResultCardComponent } from './components/result-card/result-card.component';
+import {HttpClientModule} from "@angular/common/http";
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { ResultCardComponent } from './components/result-card/result-card.compon
     BrowserAnimationsModule,
     MatButtonModule,
     MatCardModule,
-    MatProgressBarModule
+    MatProgressBarModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

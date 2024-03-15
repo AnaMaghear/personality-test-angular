@@ -1,5 +1,5 @@
 export interface QuestionModel {
   question: string;
-  img_name: string;
+  img: string;
   part: number;
 }

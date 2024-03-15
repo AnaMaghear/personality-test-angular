@@ -1,0 +1,555 @@
+{
+  "categoryQuestions": [
+    {
+      "question": "Do you like to protect nature and its inhabitants?",
+      "yes_answer": "connection_with_nature",
+      "no_answer": "",
+      "img": "q0.jpg",
+      "part": 1
+    },
+    {
+      "question": "Do you think you are a patient person?",
+      "yes_answer": "slower_paced",
+      "no_answer": "fast_paced",
+      "img": "q1.jpg",
+      "part": 1
+    },
+    {
+      "question": "Do you enjoy working with your hands?",
+      "yes_answer": "practicality",
+      "no_answer": "",
+      "img": "q2.jpg",
+      "part": 1
+    },
+    {
+      "question": "Are you adaptable to change?",
+      "yes_answer": "adaptable",
+      "no_answer": "",
+      "img": "q3.jpg",
+      "part": 1
+    },
+    {
+      "question": "Are you analytical and enjoy problem-solving?",
+      "yes_answer": "analytical_thinkers",
+      "no_answer": "",
+      "img": "q4.png",
+      "part": 1
+    },
+    {
+      "question": "Do you work well in a team environment?",
+      "yes_answer": "team_work",
+      "no_answer": "",
+      "img": "q5.png",
+      "part": 1
+    },
+    {
+      "question": "Are you passionate about learning new things?",
+      "yes_answer": "passionate_about_learning",
+      "no_answer": "",
+      "img": "q6.png",
+      "part": 1
+    },
+    {
+      "question": "Do you value precision and accuracy in your work?",
+      "yes_answer": "value_precision",
+      "no_answer": "",
+      "img": "q7.png",
+      "part": 1
+    },
+    {
+      "question": " Are you punctual and organized?",
+      "yes_answer": "punctuality",
+      "no_answer": "",
+      "img": "q8.png",
+      "part": 1
+    },
+    {
+      "question": "Are you open-minded and willing to explore new ideas?",
+      "yes_answer": "open_minded",
+      "no_answer": "",
+      "img": "q9.png",
+      "part": 1
+    },
+    {
+      "question": "Are you talented in any specific artistic or creative pursuits?",
+      "yes_answer": "talented",
+      "no_answer": "",
+      "img": "q10.png",
+      "part": 1
+    },
+    {
+      "question": "Are you spontaneous and flexible in your approach to work?",
+      "yes_answer": "spontaneous",
+      "no_answer": "",
+      "img": "q11.png",
+      "part": 1
+    },
+    {
+      "question": "Are you fair and impartial in your interactions with others?",
+      "yes_answer": "fairness",
+      "no_answer": "",
+      "img": "q12.png",
+      "part": 1
+    },
+    {
+      "question": "Do you have strong social skills and enjoy working with people?",
+      "yes_answer": "social_skills",
+      "no_answer": "",
+      "img": "q13.png",
+      "part": 1
+    },
+    {
+      "question": "Are you compassionate and empathetic towards others?",
+      "yes_answer": "compassionate",
+      "no_answer": "",
+      "img": "q14.png",
+      "part": 1
+    },
+    {
+      "question": "Are you able to remain calm under pressure?",
+      "yes_answer": "calm_under_pressure",
+      "no_answer": "",
+      "img": "q15.png",
+      "part": 1
+    }
+  ],
+  "jobsQuestions": [
+    {
+      "category": "Nature",
+      "questions": [
+        {
+          "question": "Are you comfortable with physical labor and manual tasks?",
+          "yes_answer": "physical_labor",
+          "no_answer": "desk_work",
+          "img": "q16.jpg",
+          "part": 2
+        },
+        {
+          "question": "Do you enjoy working outdoors?",
+          "yes_answer": "outdoor",
+          "no_answer":  "indoor",
+          "img": "q17.jpg",
+          "part": 2
+        },
+        {
+          "question": "Would you like to have a degree in animal care?",
+          "yes_answer": "degree",
+	      "no_answer":  "not_degree",
+          "img": "q18.jpg",
+          "part": 2
+        },
+        {
+          "question": "Do you like to take care of animals?",
+          "yes_answer": "animal_care",
+	      "no_answer":  "",
+          "img": "q19.jpg",
+          "part": 2
+        }
+      ]
+   },
+   {
+      "category": "IT",
+      "questions": [
+        {
+          "question": "Are you comfortable working in an office?",
+          "yes_answer": "desk_work",
+          "no_answer": "physical_labor",
+          "img": "q20.jpg",
+          "part": 2
+        },
+        {
+          "question": "Would you like to hold a degree in computer science or a related field?",
+          "yes_answer": "degree",
+	      "no_answer":  "not_degree",
+          "img": "q21.jpg",
+          "part": 2
+        },
+        {
+          "question": "Do you prefer a hands-on approach to problem-solving and troubleshooting?",
+          "yes_answer": "hands_on",
+          "no_answer": "not_hands_on",
+          "img": "q22.jpg",
+          "part": 2
+        }
+      ]
+   },
+   {
+      "category": "Construction",
+      "questions": [
+        {
+          "question": "Are you comfortable working in a office?",
+          "yes_answer": "desk_work",
+          "no_answer": "physical_labor",
+          "img": "q23.jpg",
+          "part": 2
+        },
+        {
+          "question": "Do you enjoy working outdoors?",
+          "yes_answer": "outdoor",
+	      "no_answer":  "indoor",
+          "img": "q24.jpg",
+          "part": 2
+        },
+        {
+          "question": "Would you like to have a degree in architecture or a construction related field?",
+          "yes_answer": "degree",
+	      "no_answer":  "not_degree",
+          "img": "q25.jpg",
+          "part": 2
+        },
+        {
+          "question": "Are you a creative person?",
+          "yes_answer": "creativity",
+	      "no_answer":  "methodical",
+          "img": "q26.jpg",
+          "part": 2
+        }
+      ]
+   },
+  {
+      "category": "Creativity",
+      "questions": [
+        {
+          "question": "Are you comfortable working in a office?",
+          "yes_answer": "desk_work",
+          "no_answer": "physical_labor",
+          "img": "q27.jpg",
+          "part": 2
+        },
+        {
+          "question": "Do you enjoy working outdoors?",
+          "yes_answer": "outdoor",
+          "no_answer":  "indoor",
+          "img": "q28.jpg",
+          "part": 2
+        },
+        {
+          "question": "Would you like to have a degree in artistic area?",
+          "yes_answer": "degree",
+          "no_answer":  "not_degree",
+          "img": "q29.jpg",
+          "part": 2
+        },
+        {
+          "question": "Are you charismatic and enjoy performing in front of audiences?",
+          "yes_answer": "charistmatic",
+	      "no_answer":  "not_charistmatic",
+          "img": "q30.jpg",
+          "part": 2
+        }
+      ]
+   },
+  {
+      "category": "Education",
+      "questions": [
+        {
+          "question": "Would you like to have a degree in education area?",
+          "yes_answer": "degree",
+	      "no_answer":  "not_degree",
+          "img": "q31.jpg",
+          "part": 2
+        },
+        {
+          "question": "Are you a book lover?",
+          "yes_answer": "book_lover",
+	      "no_answer":  "",
+          "img": "q32.jpg",
+          "part": 2
+        }
+      ]
+   },
+   {
+      "category": "Healthcare",
+      "questions": [
+        {
+          "question": "Are you comfortable working in at a desk?",
+          "yes_answer": "desk_work",
+          "no_answer": "physical_labor",
+          "img": "q33.jpg",
+          "part": 2
+        },
+        {
+          "question": "Do you enjoy working outdoors?",
+          "yes_answer": "outdoor",
+	      "no_answer":  "indoor",
+          "img": "q34.jpg",
+          "part": 2
+        },
+        {
+          "question": "Would you like to have a degree in healthcare area?",
+          "yes_answer": "degree",
+	      "no_answer":  "not_degree",
+          "img": "q35.jpg",
+          "part": 2
+        },
+        {
+          "question": "Do you have steady hands?",
+          "yes_answer": "steady_hands",
+	      "no_answer":  "",
+          "img": "q36.jpg",
+          "part": 2
+        },
+        {
+          "question": "Are you an athletic person?",
+          "yes_answer": "physical_condition",
+          "no_answer":  "",
+          "img": "q37.jpg",
+          "part": 2
+        },
+        {
+          "question": "Are you a talkative person?",
+          "yes_answer": "talkative",
+	      "no_answer":  "",
+          "img": "q38.jpg",
+          "part": 2
+        }
+      ]
+   },
+   {
+      "category": "Hospitality",
+      "questions": [
+        {
+          "question": "Are you comfortable working in at a desk?",
+          "yes_answer": "desk_work",
+          "no_answer": "physical_labor",
+          "img": "q39.jpg",
+          "part": 2
+        },
+        {
+          "question": "Do you enjoy working outdoors?",
+          "yes_answer": "outdoor",
+	      "no_answer":  "indoor",
+          "img": "q40.jpg",
+          "part": 2
+        },
+        {
+          "question": "Would you like to have a degree in hospitality area?",
+          "yes_answer": "degree",
+	      "no_answer":  "not_degree",
+          "img": "q41.jpg",
+          "part": 2
+        },
+        {
+          "question": "Are you a talkative person?",
+          "yes_answer": "talkative",
+	      "no_answer":  "",
+          "img": "q42.jpg",
+          "part": 2
+        },
+	      {
+          "question": "Are you a gourmand person?",
+          "yes_answer": "gourmand",
+	      "no_answer":  "",
+          "img": "q43.jpg",
+          "part": 2
+        }
+      ]
+   },
+   {
+      "category": "Legal",
+      "questions": [
+        {
+          "question": "Are you comfortable working in a desk-bound?",
+          "yes_answer": "desk_work",
+          "no_answer": "physical_labor",
+          "img": "q44.jpg",
+          "part": 2
+        },
+        {
+          "question": "Do you enjoy working outdoors?",
+          "yes_answer": "outdoor",
+	      "no_answer":  "indoor",
+          "img": "q45.jpg",
+          "part": 2
+        },
+        {
+          "question": "Would you like to have a degree in legal services area?",
+          "yes_answer": "degree",
+	      "no_answer":  "not_degree",
+          "img": "q46.jpg",
+          "part": 2
+        },
+        {
+          "question": "Are you an impartial person?",
+          "yes_answer": "impartial",
+	      "no_answer":  "partial",
+          "img": "q47.jpg",
+          "part": 2
+        }
+      ]
+   }
+],
+  "categories": [
+      {
+          "category": "Nature",
+          "attributes": ["connection_with_nature", "slower_paced", "practicality", "adaptable"]
+      },
+      {
+          "category": "IT",
+          "attributes": ["analytical_thinkers", "team_work", "passionate_about_learning", "punctuality"]
+      },
+      {
+          "category": "Construction",
+          "attributes": ["analytical_thinkers", "value_precision", "practicality", "punctuality"]
+      },
+      {
+          "category": "Ceativity",
+          "attributes": ["connection_with_nature", "open_minded", "talented", "spontaneous"]
+      },
+      {
+          "category": "Education",
+          "attributes": ["fairness", "social_skills", "passionate_about_learning", "compassionate"]
+      },
+      {
+          "category": "Healthcare",
+          "attributes": ["calm_under_pressure", "social_skills", "value_precision", "compassionate"]
+      },
+      {
+          "category": "Hospitality",
+          "attributes": ["adaptable", "social_skills", "practicality", "fast_paced"]
+      },
+      {
+          "category": "Legal",
+          "attributes": ["analytical_thinkers", "fairness", "compassionate", "social_skills"]
+      }
+
+  ],
+  "jobs": [
+      {
+          "job": "Farmer",
+          "category": "Nature",
+          "attributes": ["physical_labor", "outdoor", "not_degree", "animal_care"],
+          "img": "j0.jpg"
+      },
+      {
+          "job": "Veterinarian",
+          "category": "Nature",
+          "attributes": ["physical_labor", "indoor", "degree", "animal_care"],
+          "img": "j1.jpg"
+
+      },
+      {
+          "job": "SW engineer",
+          "category": "IT",
+          "attributes": ["desk_work", "indoor", "degree", "not_hands_on"],
+          "img": "j2.jpg"
+      },
+      {
+          "job": "HW engineer",
+          "category": "IT",
+          "attributes": ["desk_work", "indoor", "degree", "hands_on"],
+          "img": "j3.jpg"
+
+      },
+      {
+          "job": "Tester",
+          "category": "IT",
+          "attributes": ["desk_work", "indoor", "not_degree"],
+          "img": "j4.jpg"
+      },
+      {
+          "job": "Architect",
+          "category": "Construction",
+          "attributes": ["desk_work", "indoor", "degree", "creativity"],
+          "img": "j5.jpg"
+      },
+      {
+          "job": "Electrician",
+          "category": "Construction",
+          "attributes": ["physical_labor", "indoor", "not_degree", "methodical"],
+          "img": "j6.jpg"
+
+       },
+       {
+          "job": "Construction engineer",
+          "category": "Construction",
+          "attributes": ["physical_labor", "outdoor", "degree", "methodical"],
+          "img": "j7.jpg"
+
+      },
+      {
+          "job": "Performer",
+          "category": "Creativity",
+          "attributes": ["physical_labor", "indoor", "not_degree", "charistmatic"],
+          "img": "j8.jpg"
+      },
+      {
+          "job": "Designer",
+          "category": "Creativity",
+          "attributes": ["desk_work", "indoor", "not_degree", "not_charistmatic"],
+          "img": "j9.jpg"
+      },
+      {
+          "job": "Teacher",
+          "category": "Education",
+          "attributes": ["desk_work", "indoor", "degree"],
+          "img": "j10.jpg"
+      },
+      {
+          "job": "Librarian",
+          "category": "Education",
+          "attributes": ["desk_work", "indoor", "not_degree", "book_lover"],
+          "img": "j11.jpg"
+      },
+      {
+          "job": "Nurse",
+          "category": "Healthcare",
+          "attributes": ["physical_labor", "indoor", "not_degree"],
+          "img": "j12.jpg"
+      },
+      {
+          "job": "Doctor",
+          "category": "Healthcare",
+          "attributes": ["physical_labor", "indoor", "degree"],
+          "img": "j13.jpg"
+      },
+      {
+          "job": "Surgeon",
+          "category": "Healthcare",
+          "attributes": ["physical_labor", "indoor", "degree", "steady_hands"],
+          "img": "j14.jpg"
+      },
+      {
+          "job": "Firefighter",
+          "category": "Healthcare",
+          "attributes": ["physical_labor", "outdoor", "not_degree", "physical_condition"],
+          "img": "j15.jpg"
+      },
+      {
+          "job": "Psyhologist",
+          "category": "Healthcare",
+          "attributes": ["desk_work", "indoor", "degree", "talkative"],
+          "img": "j16.jpg"
+      },
+      {
+        "job": "Chef",
+        "category": "Hospitality",
+        "attributes": ["physical_labor", "indoor", "not_degree", "gourmand"],
+        "img": "j17.jpg"
+      },
+      {
+        "job": "Barman",
+        "category": "Hospitality",
+        "attributes": ["physical_labor", "indoor", "not_degree", "talkative"],
+        "img": "j18.jpg"
+      },
+      {
+        "job": "Judge",
+        "category": "Legal",
+        "attributes": ["desk_work", "indoor", "degree", "impartial"],
+        "img": "j19.jpg"
+      },
+      {
+        "job": "Policeman",
+        "category": "Legal",
+        "attributes": ["physical_labor", "outdoor", "degree", "impartial"],
+        "img": "j20.jpg"
+      },
+      {
+        "job": "Lawyer",
+        "category": "Legal",
+        "attributes": ["desk_work", "indoor", "degree", "partial"],
+        "img": "j21.jpg"
+      }
+  ]
+}
