@@ -3,7 +3,7 @@
     {
       "question": "Do you like to protect nature and its inhabitants?",
       "yes_answer": "connection_with_nature",
-      "no_answer": "",
+      "no_answer": "industrialism",
       "img": "q0.jpg",
       "part": 1
     },
@@ -17,98 +17,84 @@
     {
       "question": "Do you enjoy working with your hands?",
       "yes_answer": "practicality",
-      "no_answer": "",
+      "no_answer": "mental_work",
       "img": "q2.jpg",
       "part": 1
     },
     {
       "question": "Are you adaptable to change?",
       "yes_answer": "adaptable",
-      "no_answer": "",
+      "no_answer": "conservative",
       "img": "q3.jpg",
       "part": 1
     },
     {
       "question": "Are you analytical and enjoy problem-solving?",
       "yes_answer": "analytical_thinkers",
-      "no_answer": "",
+      "no_answer": "spontaneous",
       "img": "q4.png",
       "part": 1
     },
     {
       "question": "Do you work well in a team environment?",
       "yes_answer": "team_work",
-      "no_answer": "",
+      "no_answer": "individualist",
       "img": "q5.png",
       "part": 1
     },
     {
       "question": "Are you passionate about learning new things?",
       "yes_answer": "passionate_about_learning",
-      "no_answer": "",
+      "no_answer": "lack_of_enthusiasm",
       "img": "q6.png",
       "part": 1
     },
     {
       "question": "Do you value precision and accuracy in your work?",
       "yes_answer": "value_precision",
-      "no_answer": "",
+      "no_answer": "superficial",
       "img": "q7.png",
       "part": 1
     },
     {
-      "question": " Are you punctual and organized?",
-      "yes_answer": "punctuality",
-      "no_answer": "",
+      "question": "Are you able to respect deadlines?",
+      "yes_answer": "deadline",
+      "no_answer": "not_deadline",
       "img": "q8.png",
-      "part": 1
-    },
-    {
-      "question": "Are you open-minded and willing to explore new ideas?",
-      "yes_answer": "open_minded",
-      "no_answer": "",
-      "img": "q9.png",
       "part": 1
     },
     {
       "question": "Are you talented in any specific artistic or creative pursuits?",
       "yes_answer": "talented",
-      "no_answer": "",
+      "no_answer": "not_talented",
       "img": "q10.png",
-      "part": 1
-    },
-    {
-      "question": "Are you spontaneous and flexible in your approach to work?",
-      "yes_answer": "spontaneous",
-      "no_answer": "",
-      "img": "q11.png",
       "part": 1
     },
     {
       "question": "Are you fair and impartial in your interactions with others?",
       "yes_answer": "fairness",
-      "no_answer": "",
+      "no_answer": "biased",
       "img": "q12.png",
       "part": 1
     },
     {
       "question": "Do you have strong social skills and enjoy working with people?",
       "yes_answer": "social_skills",
-      "no_answer": "",
+      "no_answer": "introvert",
       "img": "q13.png",
       "part": 1
     },
     {
       "question": "Are you compassionate and empathetic towards others?",
       "yes_answer": "compassionate",
-      "no_answer": "",
+      "no_answer": "ignorant",
       "img": "q14.png",
       "part": 1
     },
     {
       "question": "Are you able to remain calm under pressure?",
       "yes_answer": "calm_under_pressure",
-      "no_answer": "",
+      "no_answer": "anxious",
       "img": "q15.png",
       "part": 1
     }
@@ -121,7 +107,7 @@
           "question": "Are you comfortable with physical labor and manual tasks?",
           "yes_answer": "physical_labor",
           "no_answer": "desk_work",
-          "img": "q16.jpg",
+          "img": "q16.png",
           "part": 2
         },
         {
@@ -379,177 +365,177 @@
       ]
    }
 ],
-  "categories": [
-      {
-          "category": "Nature",
-          "attributes": ["connection_with_nature", "slower_paced", "practicality", "adaptable"]
-      },
-      {
-          "category": "IT",
-          "attributes": ["analytical_thinkers", "team_work", "passionate_about_learning", "punctuality"]
-      },
-      {
-          "category": "Construction",
-          "attributes": ["analytical_thinkers", "value_precision", "practicality", "punctuality"]
-      },
-      {
-          "category": "Ceativity",
-          "attributes": ["connection_with_nature", "open_minded", "talented", "spontaneous"]
-      },
-      {
-          "category": "Education",
-          "attributes": ["fairness", "social_skills", "passionate_about_learning", "compassionate"]
-      },
-      {
-          "category": "Healthcare",
-          "attributes": ["calm_under_pressure", "social_skills", "value_precision", "compassionate"]
-      },
-      {
+    "categories": [
+        {
+            "category": "Nature",
+            "attributes": ["connection_with_nature", "calm_under_pressure","slower_paced", "practicality", "adaptable", "individualist", "superficial", "introvert", "not_deadline", "lack_of_enthusiasm"]
+        },
+	      {
+            "category": "IT",
+            "attributes": ["analytical_thinkers", "anxious", "team_work", "passionate_about_learning", "deadline", "mental_work","not_talented", "introvert", "adaptable", "ignorant"]
+        },
+        {
+            "category": "Construction",
+            "attributes": ["analytical_thinkers", "value_precision", "practicality", "deadline", "industrialism", "team_work", "ignorant", "not_talented"]
+        },
+        {
+            "category": "Creativity",
+            "attributes": ["connection_with_nature", "adaptable", "talented", "spontaneous", "individualist", "superficial", "biased", "not_deadline", "calm_under_pressure"]
+        },
+        {
+            "category": "Education",
+            "attributes": ["fairness", "anxious", "social_skills", "passionate_about_learning", "compassionate", "mental_work", "individualist", "adaptable", "not_deadline"]
+        },
+        {
+            "category": "Healthcare",
+            "attributes": ["calm_under_pressure", "social_skills", "value_precision", "compassionate", "mental_work", "not_deadline","adaptable","not_talented"]
+        },
+        {
+            "category": "Hospitality",
+            "attributes": ["adaptable", "calm_under_pressure","social_skills", "practicality", "fast_paced", "not_talented","individualist", "superficial","lack_of_enthusiasm"]
+        },
+        {
+            "category": "Legal",
+            "attributes": ["analytical_thinkers", "fairness", "compassionate", "social_skills", "mental_work","not_talented","calm_under_pressure", "conservative"]
+        }
+
+    ],
+    "jobs": [
+        {
+            "job": "Farmer",
+            "category": "Nature",
+            "attributes": ["physical_labor", "outdoor", "not_degree", "animal_care"],
+            "img": "j0.jpg"
+        },
+	      {
+            "job": "Veterinarian",
+            "category": "Nature",
+            "attributes": ["physical_labor", "indoor", "degree", "animal_care"],
+            "img": "j1.jpg"
+            
+        },
+        {
+            "job": "SW engineer",
+            "category": "IT",
+            "attributes": ["desk_work", "indoor", "degree", "not_hands_on"],
+            "img": "j2.jpg"
+        },
+        {
+            "job": "HW engineer",
+            "category": "IT",
+            "attributes": ["desk_work", "indoor", "degree", "hands_on"],
+            "img": "j3.jpg"
+
+        },
+        {
+            "job": "Tester",
+            "category": "IT",
+            "attributes": ["desk_work", "indoor", "not_degree"],
+            "img": "j4.jpg"
+        },
+        {
+            "job": "Architect",
+            "category": "Construction",
+            "attributes": ["desk_work", "indoor", "degree", "creativity"],
+            "img": "j5.jpg"
+        },
+        {
+            "job": "Electrician",
+            "category": "Construction",
+            "attributes": ["physical_labor", "indoor", "not_degree", "methodical"],
+            "img": "j6.jpg"
+
+         },
+         {
+            "job": "Construction engineer",
+            "category": "Construction",
+            "attributes": ["physical_labor", "outdoor", "degree", "methodical"],
+            "img": "j7.jpg"
+
+        },
+        {
+            "job": "Performer",
+            "category": "Creativity",
+            "attributes": ["physical_labor", "indoor", "not_degree", "charistmatic"],
+            "img": "j8.jpg"
+        },
+        {
+            "job": "Designer",
+            "category": "Creativity",
+            "attributes": ["desk_work", "indoor", "not_degree", "not_charistmatic"],
+            "img": "j9.jpg"
+        },
+        {
+            "job": "Teacher",
+            "category": "Education",
+            "attributes": ["desk_work", "indoor", "degree"],
+            "img": "j10.jpg"
+        },
+        {
+            "job": "Librarian",
+            "category": "Education",
+            "attributes": ["desk_work", "indoor", "not_degree", "book_lover"],
+            "img": "j11.jpg"
+        },
+	      {
+            "job": "Nurse",
+            "category": "Healthcare",
+            "attributes": ["physical_labor", "indoor", "not_degree"],
+            "img": "j12.jpg"
+        },
+	      {
+            "job": "Doctor",
+            "category": "Healthcare",
+            "attributes": ["physical_labor", "indoor", "degree"],
+            "img": "j13.jpg"
+        },
+	      {
+            "job": "Surgeon",
+            "category": "Healthcare",
+            "attributes": ["physical_labor", "indoor", "degree", "steady_hands"],
+            "img": "j14.jpg"
+        },
+	      {
+            "job": "Firefighter",
+            "category": "Healthcare",
+            "attributes": ["physical_labor", "outdoor", "not_degree", "physical_condition"],
+            "img": "j15.jpg"
+        },
+	      {
+            "job": "Psyhologist",
+            "category": "Healthcare",
+            "attributes": ["desk_work", "indoor", "degree", "talkative"],
+            "img": "j16.jpg"
+        },
+        {
+          "job": "Chef",
           "category": "Hospitality",
-          "attributes": ["adaptable", "social_skills", "practicality", "fast_paced"]
-      },
-      {
+          "attributes": ["physical_labor", "indoor", "not_degree", "gourmand"],
+          "img": "j17.jpg"
+        },
+        {
+          "job": "Barman",
+          "category": "Hospitality",
+          "attributes": ["physical_labor", "indoor", "not_degree", "talkative"],
+          "img": "j18.jpg"
+        },
+        {
+          "job": "Judge",
           "category": "Legal",
-          "attributes": ["analytical_thinkers", "fairness", "compassionate", "social_skills"]
-      }
-
-  ],
-  "jobs": [
-      {
-          "job": "Farmer",
-          "category": "Nature",
-          "attributes": ["physical_labor", "outdoor", "not_degree", "animal_care"],
-          "img": "j0.jpg"
-      },
-      {
-          "job": "Veterinarian",
-          "category": "Nature",
-          "attributes": ["physical_labor", "indoor", "degree", "animal_care"],
-          "img": "j1.jpg"
-
-      },
-      {
-          "job": "SW engineer",
-          "category": "IT",
-          "attributes": ["desk_work", "indoor", "degree", "not_hands_on"],
-          "img": "j2.jpg"
-      },
-      {
-          "job": "HW engineer",
-          "category": "IT",
-          "attributes": ["desk_work", "indoor", "degree", "hands_on"],
-          "img": "j3.jpg"
-
-      },
-      {
-          "job": "Tester",
-          "category": "IT",
-          "attributes": ["desk_work", "indoor", "not_degree"],
-          "img": "j4.jpg"
-      },
-      {
-          "job": "Architect",
-          "category": "Construction",
-          "attributes": ["desk_work", "indoor", "degree", "creativity"],
-          "img": "j5.jpg"
-      },
-      {
-          "job": "Electrician",
-          "category": "Construction",
-          "attributes": ["physical_labor", "indoor", "not_degree", "methodical"],
-          "img": "j6.jpg"
-
-       },
-       {
-          "job": "Construction engineer",
-          "category": "Construction",
-          "attributes": ["physical_labor", "outdoor", "degree", "methodical"],
-          "img": "j7.jpg"
-
-      },
-      {
-          "job": "Performer",
-          "category": "Creativity",
-          "attributes": ["physical_labor", "indoor", "not_degree", "charistmatic"],
-          "img": "j8.jpg"
-      },
-      {
-          "job": "Designer",
-          "category": "Creativity",
-          "attributes": ["desk_work", "indoor", "not_degree", "not_charistmatic"],
-          "img": "j9.jpg"
-      },
-      {
-          "job": "Teacher",
-          "category": "Education",
-          "attributes": ["desk_work", "indoor", "degree"],
-          "img": "j10.jpg"
-      },
-      {
-          "job": "Librarian",
-          "category": "Education",
-          "attributes": ["desk_work", "indoor", "not_degree", "book_lover"],
-          "img": "j11.jpg"
-      },
-      {
-          "job": "Nurse",
-          "category": "Healthcare",
-          "attributes": ["physical_labor", "indoor", "not_degree"],
-          "img": "j12.jpg"
-      },
-      {
-          "job": "Doctor",
-          "category": "Healthcare",
-          "attributes": ["physical_labor", "indoor", "degree"],
-          "img": "j13.jpg"
-      },
-      {
-          "job": "Surgeon",
-          "category": "Healthcare",
-          "attributes": ["physical_labor", "indoor", "degree", "steady_hands"],
-          "img": "j14.jpg"
-      },
-      {
-          "job": "Firefighter",
-          "category": "Healthcare",
-          "attributes": ["physical_labor", "outdoor", "not_degree", "physical_condition"],
-          "img": "j15.jpg"
-      },
-      {
-          "job": "Psyhologist",
-          "category": "Healthcare",
-          "attributes": ["desk_work", "indoor", "degree", "talkative"],
-          "img": "j16.jpg"
-      },
-      {
-        "job": "Chef",
-        "category": "Hospitality",
-        "attributes": ["physical_labor", "indoor", "not_degree", "gourmand"],
-        "img": "j17.jpg"
-      },
-      {
-        "job": "Barman",
-        "category": "Hospitality",
-        "attributes": ["physical_labor", "indoor", "not_degree", "talkative"],
-        "img": "j18.jpg"
-      },
-      {
-        "job": "Judge",
-        "category": "Legal",
-        "attributes": ["desk_work", "indoor", "degree", "impartial"],
-        "img": "j19.jpg"
-      },
-      {
-        "job": "Policeman",
-        "category": "Legal",
-        "attributes": ["physical_labor", "outdoor", "degree", "impartial"],
-        "img": "j20.jpg"
-      },
-      {
-        "job": "Lawyer",
-        "category": "Legal",
-        "attributes": ["desk_work", "indoor", "degree", "partial"],
-        "img": "j21.jpg"
-      }
-  ]
+          "attributes": ["desk_work", "indoor", "degree", "impartial"],
+          "img": "j19.jpg"
+        },
+        {
+          "job": "Policeman",
+          "category": "Legal",
+          "attributes": ["physical_labor", "outdoor", "degree", "impartial"],
+          "img": "j20.jpg"
+        },
+        {
+          "job": "Lawyer",
+          "category": "Legal",
+          "attributes": ["desk_work", "indoor", "degree", "partial"],
+          "img": "j21.jpg"
+        }
+    ]
 }

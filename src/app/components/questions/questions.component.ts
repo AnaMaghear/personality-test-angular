@@ -61,6 +61,7 @@ export class QuestionsComponent implements OnInit {
       this.questions = this.inferenceService.getJobQuestions(this.all_responses);
       this.number_of_questions = this.questions.length;
       this.current_question = 0;
+      this.all_responses = [];
     } else {
       const jobResult = this.inferenceService.getJob(this.all_responses);
       this.resultService.changeJobResult(jobResult);
