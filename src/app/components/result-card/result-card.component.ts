@@ -10,13 +10,16 @@ import {Router} from "@angular/router";
 })
 export class ResultCardComponent implements OnInit{
 
-  job_result: JobResultModel = {job: '', job_image: ''};
+  job_result: JobResultModel = {job: '', img: ''};
   constructor(private resultService: ResultService, private router: Router) {}
 
   ngOnInit() {
     this.resultService.currentJobResult.subscribe(jobResult => {
       if (jobResult) {
         this.job_result = jobResult;
+        localStorage.setItem("job_result", JSON.stringify(jobResult));
+      } else {
+        this.job_result = JSON.parse(localStorage.getItem("job_result") as string);
       }
     });
   }

@@ -4,6 +4,7 @@ import {ResultService} from "../../services/result.service";
 import {Router} from "@angular/router";
 import {JobResultModel} from "../../models/job-result.model";
 import {ResponseModel} from "../../models/response.model";
+import {InferenceService} from "../../inference-machine/services/inference.service";
 
 
 @Component({
@@ -11,19 +12,27 @@ import {ResponseModel} from "../../models/response.model";
   templateUrl: './questions.component.html',
   styleUrls: ['./questions.component.scss']
 })
-export class QuestionsComponent{
+export class QuestionsComponent implements OnInit {
 
-  constructor(private resultService: ResultService, private router: Router) {}
+  constructor(
+    private resultService: ResultService,
+    private router: Router,
+    private inferenceService: InferenceService
+    ) {}
+
+  ngOnInit(): void {
+      this.inferenceService.getCategoryQuestions()
+        .subscribe(data => {
+          this.questions = data;
+          this.number_of_questions = data.length;
+        });
+  }
 
   selectedButton: 1 | 0 | null = null;
-  questions: QuestionModel[] = [
-    {question: 'How are you today 1?', img_name: 'q0.jpg', part: 1},
-    {question: 'How are you today 2?', img_name: 'q1.jpg', part: 1},
-    {question: 'How are you today 3?', img_name: 'q2.jpg', part: 1},
-  ];
+  questions: QuestionModel[] = [];
 
   current_question: number = 0;
-  number_of_questions: number = this.questions.length;
+  number_of_questions: number = 0;
   all_responses: ResponseModel[] = [];
 
   selectButton(button: 1 | 0): void {
@@ -35,10 +44,9 @@ export class QuestionsComponent{
   }
 
   onNext() {
-    this.selectedButton = null;
-    this.current_question++;
     this.selectButton(this.all_responses[this.current_question]?.response);
-
+    this.current_question++;
+    this.selectedButton = null;
   }
 
   onBack() {
@@ -47,12 +55,15 @@ export class QuestionsComponent{
   }
 
   onSubmit(part: number) {
-    if(part !== 1) { //schimba cand ai doua liste de question uri
-    }
+    this.selectedButton = null;
 
-    else {
-      console.log(this.all_responses);
-      const jobResult: JobResultModel = { job: 'Farmer', job_image: 'j0.jpg' }; // call uie sa primesti raspunsul
+    if(part === 1) {
+      this.questions = this.inferenceService.getJobQuestions(this.all_responses);
+      this.number_of_questions = this.questions.length;
+      this.current_question = 0;
+      this.all_responses = [];
+    } else {
+      const jobResult = this.inferenceService.getJob(this.all_responses);
       this.resultService.changeJobResult(jobResult);
       this.router.navigate(['/result']);
     }

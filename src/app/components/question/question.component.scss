@@ -8,10 +8,16 @@
   margin: 0 0 0.5rem;
 }
 
-
 img {
-  height: 12rem;
+  width: 30rem;
   border-radius: 10px;
+}
+
+@media only screen and (max-height: 900px) {
+  img {
+    width: 20rem;
+    border-radius: 10px;
+  }
 }
 
 .image-question{

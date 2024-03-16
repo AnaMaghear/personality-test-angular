@@ -12,13 +12,19 @@
   justify-content: center;
   align-items: center;
 }
-.image {
-  height: 65%;
-  width: 35%;
+
+img {
+  width: 30rem;
   border-radius: 10px;
   margin: 1rem;
 }
 
+@media only screen and (max-height: 900px) {
+  img {
+    width: 20rem;
+    border-radius: 10px;
+  }
+}
 
 .roboto-slab-title-text {
 
